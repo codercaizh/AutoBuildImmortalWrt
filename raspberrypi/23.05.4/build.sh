@@ -11,7 +11,7 @@ if [ -z "$CUSTOM_PACKAGES" ]; then
 else
   # 下载 run 文件仓库
   echo "🔄 正在同步第三方软件仓库 Cloning run file repo..."
-  git clone -b my https://github.com/codercaizh/store.git /tmp/store-run-repo
+  git clone -b my --depth=1 https://github.com/codercaizh/store.git /tmp/store-run-repo
 
   # 拷贝 run/arm64 下所有 run 文件和ipk文件 到 extra-packages 目录
   mkdir -p /home/build/immortalwrt/extra-packages
