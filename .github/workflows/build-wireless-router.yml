@@ -25,6 +25,7 @@ on:
         description: "请选择mtk路由器型号"
         required: true
         options:
+          - qihoo_360t7-ubootmod
           - glinet_gl-mt2500
           - glinet_gl-mt3000
           - glinet_gl-mt6000
@@ -68,7 +69,6 @@ on:
           - cmcc_rax3000m-emmc-ubootmod
           - cmcc_rax3000m-nand-ubootmod
           - imou_lc-hx3001-ubootmod
-          - qihoo_360t7-ubootmod
           - xiaomi_mi-router-wr30u-112m-nmbm
           - xiaomi_redmi-router-ax6000
           - abt_asr3000
