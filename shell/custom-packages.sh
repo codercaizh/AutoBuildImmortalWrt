@@ -45,3 +45,4 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"
 
 
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-xfrpc luci-i18n-xfrpc-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-n2n luci-i18n-n2n-zh-cn"
